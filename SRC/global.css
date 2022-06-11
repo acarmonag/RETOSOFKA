@@ -1,0 +1,132 @@
+* {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .app {
+    background-color: #ffa600;
+    max-width: 1050px;
+    min-width: 650px;
+    height: min-content;
+    min-height: 200px;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 20px 20px 84px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  /* PREGUNTAS */
+  .ladoIzquierdo {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .preguntaNumero {
+    margin-bottom: 100px;
+  }
+  
+  .preguntaNumero span {
+    font-size: 50px;
+  }
+  
+  .pregunta-titulo {
+    margin-bottom: 50px;
+  }
+  
+  .ladoDerecho {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* FINALIZADO */
+  .juegoTerminado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+    align-items: center;
+  }
+  /* INICIALIZADO */
+  .inicia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 18px;
+    align-items: center;
+  }
+  .inicia2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 35px;
+    align-items: center;
+  }
+  
+  /* GRAL */
+  button {
+    width: 80%;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4a3e25;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #685223;
+    cursor: pointer;
+  }
+  
+  .tiempo-restante {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .correct,
+  .correct:hover {
+    background-color: #2f922f;
+  }
+  
+  .incorrect,
+  .incorrect:hover {
+    background-color: #ff3333;
+  }
+  
+  .btns-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  button:hover {
+    background-color: #684c23;
+  }
+  
+  button[disabled] {
+    background-color: #7d6f55;
+    color: #ffffff;
+    cursor: not-allowed;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button svg {
+    margin-right: 5px;
+  }
